@@ -14,7 +14,7 @@ load_dotenv()
 #os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = credentials_path
 #print("GOOGLE_APPLICATION_CREDENTIALS set to:", credentials_path)
 
-os.environ["GOOGLE_API_KEY"]="AIzaSyAhpLJUr9Coxf2-8BOPNaro7VrUttr_fJU"
+
 
 # Set USER_AGENT to identify requests
 os.environ["USER_AGENT"] = "KrishiMitra/1.0"
@@ -58,7 +58,7 @@ MAX_SIZE = 100
 # Initialize embeddings with explicit credentials
 EMBEDDINGS = GoogleGenerativeAIEmbeddings(
     model="models/embedding-001",
-    google_api_key="AIzaSyAXoIWl2lswnJxpE3srSx1DJak1uVNc0Ds",  # We're using service account credentials instead
+
     #credentials_path=credentials_path
 )
 START_WEB_SCRAPING_MYSCHEMES = False

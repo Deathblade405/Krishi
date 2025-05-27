@@ -197,7 +197,7 @@ export default function App() {
 // ✅ Real transcription logic with AssemblyAI
 const transcribeAudio = async (uri) => {
   try {
-    const apiKey = '51329d9916ce4771b99ad6e228f9ee2c'; // Replace with your AssemblyAI key
+
 
     const audio = {
       uri,
